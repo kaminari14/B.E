@@ -1,0 +1,9 @@
+Speech,app,options
+open firefox,firefox,
+open files,files,
+show the info about network interfaces,network interfaces,
+show all non udp open ports,ports,-nltp
+show open ports,ports,-nltp
+what are the open ports,ports,-nltp
+increase the volume by 10%,volume,set-sink-volume 0 +10%
+decrease the volume by 10%,volume,set-sink-volume 0 -10%

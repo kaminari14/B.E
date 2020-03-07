@@ -1,0 +1,6 @@
+app,command
+firefox,firefox
+files,nemo
+network interfaces,ifconfig
+ports,netstat
+volume,pactl
