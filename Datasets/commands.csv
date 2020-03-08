@@ -7,3 +7,6 @@ show open ports,ports,-nltp
 what are the open ports,ports,-nltp
 increase the volume by 10%,volume,set-sink-volume 0 +10%
 decrease the volume by 10%,volume,set-sink-volume 0 -10%
+shutdown, shutdown, now
+power off, shutdown, now
+shutdown for the day, shutdown, now

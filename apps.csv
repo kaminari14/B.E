@@ -4,3 +4,4 @@ files,nemo
 network interfaces,ifconfig
 ports,netstat
 volume,pactl
+shutdown, shutdown

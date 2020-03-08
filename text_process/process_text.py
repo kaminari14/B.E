@@ -1,13 +1,15 @@
 import pandas as pd
-
+import spacy
 from train.train_ds import train_dataset
 
 class analyze_text:
     def __init__(self):
         pass
 
-    def make_bow(self):
+    def make_bow(self):  #, df):
         pass
+        #nlp = spacy.load("en_core_web_sm")
+        #print(nlp.default.stop_words)
 
 
 class train_text:
