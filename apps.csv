@@ -5,3 +5,5 @@ network interfaces,ifconfig
 ports,netstat
 volume,pactl
 shutdown, shutdown
+processes,ps
+killall,killall

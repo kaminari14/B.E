@@ -10,3 +10,8 @@ decrease the volume by 10%,volume,set-sink-volume 0 -10%
 shutdown, shutdown, now
 power off, shutdown, now
 shutdown for the day, shutdown, now
+show me all running processes,processes,-A
+increase the volume by 20%,volume,set-sink-volume 0 +20%
+stop all instances of terminals,killall,gnome-terminal-server
+stop all running terminal windows,killall,gnome-terminal-server
+close all firefox windows,killall,firefox

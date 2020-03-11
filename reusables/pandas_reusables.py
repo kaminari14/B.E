@@ -3,8 +3,7 @@ import pandas as pd
 
 def add_row(df, filepath):
     try:
-        with open(filepath, 'a') as ds:
-            df.to_csv(ds, header=False, index=False, line_terminator="\n")
+        df.to_csv(filepath, mode="a", header=False, index=False, line_terminator="\n")
     except Exception as e:
         print(e)
 
